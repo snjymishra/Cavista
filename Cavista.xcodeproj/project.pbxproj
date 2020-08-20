@@ -1,0 +1,860 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		495D76558B4462FCAE405877 /* Pods_Cavista.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90E190279C9B8DAB21CB4DAF /* Pods_Cavista.framework */; };
+		67182ACB24EC21DC009F3A17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67182ACA24EC21DC009F3A17 /* AppDelegate.swift */; };
+		67182ACD24EC21DC009F3A17 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67182ACC24EC21DC009F3A17 /* SceneDelegate.swift */; };
+		67182AD524EC21DC009F3A17 /* Cavista.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 67182AD324EC21DC009F3A17 /* Cavista.xcdatamodeld */; };
+		67182AD724EC21E4009F3A17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67182AD624EC21E4009F3A17 /* Assets.xcassets */; };
+		67182ADA24EC21E4009F3A17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67182AD824EC21E4009F3A17 /* LaunchScreen.storyboard */; };
+		67182AE524EC21E4009F3A17 /* CavistaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67182AE424EC21E4009F3A17 /* CavistaTests.swift */; };
+		67182AF024EC21E4009F3A17 /* CavistaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67182AEF24EC21E4009F3A17 /* CavistaUITests.swift */; };
+		67182AFF24EC2266009F3A17 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67182AFE24EC2266009F3A17 /* HomeViewController.swift */; };
+		67182B0324EC261C009F3A17 /* HomeImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67182B0224EC261C009F3A17 /* HomeImageCell.swift */; };
+		67182B0524EC2B5C009F3A17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67182B0424EC2B5C009F3A17 /* Main.storyboard */; };
+		67182B0824ED0F2E009F3A17 /* WebServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67182B0724ED0F2E009F3A17 /* WebServiceManager.swift */; };
+		67182B0B24ED11F7009F3A17 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67182B0A24ED11F7009F3A17 /* HomeModel.swift */; };
+		67182B0E24ED124D009F3A17 /* HomeDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67182B0D24ED124D009F3A17 /* HomeDataViewModel.swift */; };
+		67182B1024ED34B6009F3A17 /* HomeTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67182B0F24ED34B6009F3A17 /* HomeTextCell.swift */; };
+		67182B1324EE7152009F3A17 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67182B1224EE7152009F3A17 /* DetailViewController.swift */; };
+		67182B1524EE766A009F3A17 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67182B1424EE766A009F3A17 /* DetailViewModel.swift */; };
+		67182B1C24EE8A2E009F3A17 /* PersistentStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67182B1B24EE8A2E009F3A17 /* PersistentStorage.swift */; };
+		67182B1E24EE8A95009F3A17 /* HomeDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67182B1D24EE8A95009F3A17 /* HomeDataRepository.swift */; };
+		67A3E95E24EE98A500741424 /* HomeDataEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A3E95C24EE98A400741424 /* HomeDataEntity+CoreDataClass.swift */; };
+		67A3E95F24EE98A500741424 /* HomeDataEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A3E95D24EE98A500741424 /* HomeDataEntity+CoreDataProperties.swift */; };
+		80874EEF68CED5388869EBF7 /* Pods_Cavista_CavistaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A65112A9D9856FE80071F5 /* Pods_Cavista_CavistaUITests.framework */; };
+		8193FF1FF72464A8965D6D6E /* Pods_CavistaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C3D828A2C9582D0C2566B7 /* Pods_CavistaTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67182AE124EC21E4009F3A17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67182ABF24EC21DC009F3A17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67182AC624EC21DC009F3A17;
+			remoteInfo = Cavista;
+		};
+		67182AEC24EC21E4009F3A17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67182ABF24EC21DC009F3A17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67182AC624EC21DC009F3A17;
+			remoteInfo = Cavista;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2EEF82A278A3C99F3A5DF607 /* Pods-Cavista-CavistaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cavista-CavistaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Cavista-CavistaUITests/Pods-Cavista-CavistaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		589C09F1AA7AA0365C0EDC7E /* Pods-CavistaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CavistaTests.release.xcconfig"; path = "Target Support Files/Pods-CavistaTests/Pods-CavistaTests.release.xcconfig"; sourceTree = "<group>"; };
+		67182AC724EC21DC009F3A17 /* Cavista.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cavista.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67182ACA24EC21DC009F3A17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67182ACC24EC21DC009F3A17 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		67182AD424EC21DC009F3A17 /* Cavista.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cavista.xcdatamodel; sourceTree = "<group>"; };
+		67182AD624EC21E4009F3A17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67182AD924EC21E4009F3A17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67182ADB24EC21E4009F3A17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67182AE024EC21E4009F3A17 /* CavistaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CavistaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67182AE424EC21E4009F3A17 /* CavistaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CavistaTests.swift; sourceTree = "<group>"; };
+		67182AE624EC21E4009F3A17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67182AEB24EC21E4009F3A17 /* CavistaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CavistaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67182AEF24EC21E4009F3A17 /* CavistaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CavistaUITests.swift; sourceTree = "<group>"; };
+		67182AF124EC21E4009F3A17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67182AFE24EC2266009F3A17 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		67182B0224EC261C009F3A17 /* HomeImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeImageCell.swift; sourceTree = "<group>"; };
+		67182B0424EC2B5C009F3A17 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		67182B0724ED0F2E009F3A17 /* WebServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceManager.swift; sourceTree = "<group>"; };
+		67182B0A24ED11F7009F3A17 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		67182B0D24ED124D009F3A17 /* HomeDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDataViewModel.swift; sourceTree = "<group>"; };
+		67182B0F24ED34B6009F3A17 /* HomeTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTextCell.swift; sourceTree = "<group>"; };
+		67182B1224EE7152009F3A17 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = Cavista/DetailView/DetailViewController.swift; sourceTree = SOURCE_ROOT; };
+		67182B1424EE766A009F3A17 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		67182B1B24EE8A2E009F3A17 /* PersistentStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentStorage.swift; sourceTree = "<group>"; };
+		67182B1D24EE8A95009F3A17 /* HomeDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDataRepository.swift; sourceTree = "<group>"; };
+		67A3E95C24EE98A400741424 /* HomeDataEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeDataEntity+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		67A3E95D24EE98A500741424 /* HomeDataEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeDataEntity+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		70218E7A967A37D117BDC038 /* Pods-Cavista-CavistaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cavista-CavistaUITests.release.xcconfig"; path = "Target Support Files/Pods-Cavista-CavistaUITests/Pods-Cavista-CavistaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		83E02C0441BBBD732BA6EEA3 /* Pods-Cavista.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cavista.debug.xcconfig"; path = "Target Support Files/Pods-Cavista/Pods-Cavista.debug.xcconfig"; sourceTree = "<group>"; };
+		85C3D828A2C9582D0C2566B7 /* Pods_CavistaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CavistaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EEE64500121F04D7BAEACD2 /* Pods-CavistaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CavistaTests.debug.xcconfig"; path = "Target Support Files/Pods-CavistaTests/Pods-CavistaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		90E190279C9B8DAB21CB4DAF /* Pods_Cavista.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cavista.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1A65112A9D9856FE80071F5 /* Pods_Cavista_CavistaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cavista_CavistaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D39C83FD6B838E7B2E72C02B /* Pods-Cavista.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cavista.release.xcconfig"; path = "Target Support Files/Pods-Cavista/Pods-Cavista.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67182AC424EC21DC009F3A17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495D76558B4462FCAE405877 /* Pods_Cavista.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67182ADD24EC21E4009F3A17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8193FF1FF72464A8965D6D6E /* Pods_CavistaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67182AE824EC21E4009F3A17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80874EEF68CED5388869EBF7 /* Pods_Cavista_CavistaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67182ABE24EC21DC009F3A17 = {
+			isa = PBXGroup;
+			children = (
+				67182B0424EC2B5C009F3A17 /* Main.storyboard */,
+				67182AC924EC21DC009F3A17 /* Cavista */,
+				67182AE324EC21E4009F3A17 /* CavistaTests */,
+				67182AEE24EC21E4009F3A17 /* CavistaUITests */,
+				67182AC824EC21DC009F3A17 /* Products */,
+				AABC931B808E369C4639A42E /* Pods */,
+				C46ED998D9D6CA152C639927 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		67182AC824EC21DC009F3A17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67182AC724EC21DC009F3A17 /* Cavista.app */,
+				67182AE024EC21E4009F3A17 /* CavistaTests.xctest */,
+				67182AEB24EC21E4009F3A17 /* CavistaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67182AC924EC21DC009F3A17 /* Cavista */ = {
+			isa = PBXGroup;
+			children = (
+				67182B1624EE8957009F3A17 /* CoreData */,
+				67182B0024EC22E2009F3A17 /* AppDelegate */,
+				67182AFD24EC2249009F3A17 /* Home */,
+				67182B1124EE712E009F3A17 /* DetailView */,
+				67182B0C24ED1213009F3A17 /* ViewModel */,
+				67182B0924ED11E8009F3A17 /* Model */,
+				67182B0624ED0F03009F3A17 /* Network */,
+				67182AD624EC21E4009F3A17 /* Assets.xcassets */,
+				67182AD824EC21E4009F3A17 /* LaunchScreen.storyboard */,
+				67182ADB24EC21E4009F3A17 /* Info.plist */,
+				67182AD324EC21DC009F3A17 /* Cavista.xcdatamodeld */,
+			);
+			path = Cavista;
+			sourceTree = "<group>";
+		};
+		67182AE324EC21E4009F3A17 /* CavistaTests */ = {
+			isa = PBXGroup;
+			children = (
+				67182AE424EC21E4009F3A17 /* CavistaTests.swift */,
+				67182AE624EC21E4009F3A17 /* Info.plist */,
+			);
+			path = CavistaTests;
+			sourceTree = "<group>";
+		};
+		67182AEE24EC21E4009F3A17 /* CavistaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67182AEF24EC21E4009F3A17 /* CavistaUITests.swift */,
+				67182AF124EC21E4009F3A17 /* Info.plist */,
+			);
+			path = CavistaUITests;
+			sourceTree = "<group>";
+		};
+		67182AFD24EC2249009F3A17 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				67182B0124EC25F9009F3A17 /* TableViewCell */,
+				67182AFE24EC2266009F3A17 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		67182B0024EC22E2009F3A17 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				67182ACA24EC21DC009F3A17 /* AppDelegate.swift */,
+				67182ACC24EC21DC009F3A17 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		67182B0124EC25F9009F3A17 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				67182B0224EC261C009F3A17 /* HomeImageCell.swift */,
+				67182B0F24ED34B6009F3A17 /* HomeTextCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		67182B0624ED0F03009F3A17 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				67182B0724ED0F2E009F3A17 /* WebServiceManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		67182B0924ED11E8009F3A17 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				67182B0A24ED11F7009F3A17 /* HomeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		67182B0C24ED1213009F3A17 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				67182B0D24ED124D009F3A17 /* HomeDataViewModel.swift */,
+				67182B1424EE766A009F3A17 /* DetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		67182B1124EE712E009F3A17 /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				67182B1224EE7152009F3A17 /* DetailViewController.swift */,
+			);
+			path = DetailView;
+			sourceTree = "<group>";
+		};
+		67182B1624EE8957009F3A17 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				67A3E95C24EE98A400741424 /* HomeDataEntity+CoreDataClass.swift */,
+				67A3E95D24EE98A500741424 /* HomeDataEntity+CoreDataProperties.swift */,
+				67182B1B24EE8A2E009F3A17 /* PersistentStorage.swift */,
+				67182B1D24EE8A95009F3A17 /* HomeDataRepository.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		AABC931B808E369C4639A42E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83E02C0441BBBD732BA6EEA3 /* Pods-Cavista.debug.xcconfig */,
+				D39C83FD6B838E7B2E72C02B /* Pods-Cavista.release.xcconfig */,
+				2EEF82A278A3C99F3A5DF607 /* Pods-Cavista-CavistaUITests.debug.xcconfig */,
+				70218E7A967A37D117BDC038 /* Pods-Cavista-CavistaUITests.release.xcconfig */,
+				8EEE64500121F04D7BAEACD2 /* Pods-CavistaTests.debug.xcconfig */,
+				589C09F1AA7AA0365C0EDC7E /* Pods-CavistaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C46ED998D9D6CA152C639927 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90E190279C9B8DAB21CB4DAF /* Pods_Cavista.framework */,
+				C1A65112A9D9856FE80071F5 /* Pods_Cavista_CavistaUITests.framework */,
+				85C3D828A2C9582D0C2566B7 /* Pods_CavistaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67182AC624EC21DC009F3A17 /* Cavista */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67182AF424EC21E4009F3A17 /* Build configuration list for PBXNativeTarget "Cavista" */;
+			buildPhases = (
+				04F8C3929EE21FEE40C059D9 /* [CP] Check Pods Manifest.lock */,
+				67182AC324EC21DC009F3A17 /* Sources */,
+				67182AC424EC21DC009F3A17 /* Frameworks */,
+				67182AC524EC21DC009F3A17 /* Resources */,
+				FDAC7C40EE8030CB3255D720 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cavista;
+			productName = Cavista;
+			productReference = 67182AC724EC21DC009F3A17 /* Cavista.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67182ADF24EC21E4009F3A17 /* CavistaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67182AF724EC21E4009F3A17 /* Build configuration list for PBXNativeTarget "CavistaTests" */;
+			buildPhases = (
+				ADAF2A480FA27B6705967C9A /* [CP] Check Pods Manifest.lock */,
+				67182ADC24EC21E4009F3A17 /* Sources */,
+				67182ADD24EC21E4009F3A17 /* Frameworks */,
+				67182ADE24EC21E4009F3A17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67182AE224EC21E4009F3A17 /* PBXTargetDependency */,
+			);
+			name = CavistaTests;
+			productName = CavistaTests;
+			productReference = 67182AE024EC21E4009F3A17 /* CavistaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67182AEA24EC21E4009F3A17 /* CavistaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67182AFA24EC21E4009F3A17 /* Build configuration list for PBXNativeTarget "CavistaUITests" */;
+			buildPhases = (
+				DA9D741C8700B9EE16239ACE /* [CP] Check Pods Manifest.lock */,
+				67182AE724EC21E4009F3A17 /* Sources */,
+				67182AE824EC21E4009F3A17 /* Frameworks */,
+				67182AE924EC21E4009F3A17 /* Resources */,
+				0F184ADF348C47C7BD059049 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67182AED24EC21E4009F3A17 /* PBXTargetDependency */,
+			);
+			name = CavistaUITests;
+			productName = CavistaUITests;
+			productReference = 67182AEB24EC21E4009F3A17 /* CavistaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67182ABF24EC21DC009F3A17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Sanjay Mishra";
+				TargetAttributes = {
+					67182AC624EC21DC009F3A17 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					67182ADF24EC21E4009F3A17 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 67182AC624EC21DC009F3A17;
+					};
+					67182AEA24EC21E4009F3A17 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 67182AC624EC21DC009F3A17;
+					};
+				};
+			};
+			buildConfigurationList = 67182AC224EC21DC009F3A17 /* Build configuration list for PBXProject "Cavista" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67182ABE24EC21DC009F3A17;
+			productRefGroup = 67182AC824EC21DC009F3A17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67182AC624EC21DC009F3A17 /* Cavista */,
+				67182ADF24EC21E4009F3A17 /* CavistaTests */,
+				67182AEA24EC21E4009F3A17 /* CavistaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67182AC524EC21DC009F3A17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67182B0524EC2B5C009F3A17 /* Main.storyboard in Resources */,
+				67182ADA24EC21E4009F3A17 /* LaunchScreen.storyboard in Resources */,
+				67182AD724EC21E4009F3A17 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67182ADE24EC21E4009F3A17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67182AE924EC21E4009F3A17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04F8C3929EE21FEE40C059D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cavista-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0F184ADF348C47C7BD059049 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cavista-CavistaUITests/Pods-Cavista-CavistaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cavista-CavistaUITests/Pods-Cavista-CavistaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cavista-CavistaUITests/Pods-Cavista-CavistaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADAF2A480FA27B6705967C9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CavistaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA9D741C8700B9EE16239ACE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cavista-CavistaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDAC7C40EE8030CB3255D720 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cavista/Pods-Cavista-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cavista/Pods-Cavista-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cavista/Pods-Cavista-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67182AC324EC21DC009F3A17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67182B1C24EE8A2E009F3A17 /* PersistentStorage.swift in Sources */,
+				67182ACB24EC21DC009F3A17 /* AppDelegate.swift in Sources */,
+				67A3E95F24EE98A500741424 /* HomeDataEntity+CoreDataProperties.swift in Sources */,
+				67182B0E24ED124D009F3A17 /* HomeDataViewModel.swift in Sources */,
+				67182ACD24EC21DC009F3A17 /* SceneDelegate.swift in Sources */,
+				67182B0824ED0F2E009F3A17 /* WebServiceManager.swift in Sources */,
+				67A3E95E24EE98A500741424 /* HomeDataEntity+CoreDataClass.swift in Sources */,
+				67182B0B24ED11F7009F3A17 /* HomeModel.swift in Sources */,
+				67182B1024ED34B6009F3A17 /* HomeTextCell.swift in Sources */,
+				67182B1E24EE8A95009F3A17 /* HomeDataRepository.swift in Sources */,
+				67182AD524EC21DC009F3A17 /* Cavista.xcdatamodeld in Sources */,
+				67182B1324EE7152009F3A17 /* DetailViewController.swift in Sources */,
+				67182B0324EC261C009F3A17 /* HomeImageCell.swift in Sources */,
+				67182B1524EE766A009F3A17 /* DetailViewModel.swift in Sources */,
+				67182AFF24EC2266009F3A17 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67182ADC24EC21E4009F3A17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67182AE524EC21E4009F3A17 /* CavistaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67182AE724EC21E4009F3A17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67182AF024EC21E4009F3A17 /* CavistaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67182AE224EC21E4009F3A17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67182AC624EC21DC009F3A17 /* Cavista */;
+			targetProxy = 67182AE124EC21E4009F3A17 /* PBXContainerItemProxy */;
+		};
+		67182AED24EC21E4009F3A17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67182AC624EC21DC009F3A17 /* Cavista */;
+			targetProxy = 67182AEC24EC21E4009F3A17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67182AD824EC21E4009F3A17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67182AD924EC21E4009F3A17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67182AF224EC21E4009F3A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67182AF324EC21E4009F3A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67182AF524EC21E4009F3A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83E02C0441BBBD732BA6EEA3 /* Pods-Cavista.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Cavista/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanjay.Cavista;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67182AF624EC21E4009F3A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D39C83FD6B838E7B2E72C02B /* Pods-Cavista.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Cavista/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanjay.Cavista;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		67182AF824EC21E4009F3A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EEE64500121F04D7BAEACD2 /* Pods-CavistaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CavistaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanjay.CavistaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cavista.app/Cavista";
+			};
+			name = Debug;
+		};
+		67182AF924EC21E4009F3A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 589C09F1AA7AA0365C0EDC7E /* Pods-CavistaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CavistaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanjay.CavistaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cavista.app/Cavista";
+			};
+			name = Release;
+		};
+		67182AFB24EC21E4009F3A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EEF82A278A3C99F3A5DF607 /* Pods-Cavista-CavistaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CavistaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanjay.CavistaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cavista;
+			};
+			name = Debug;
+		};
+		67182AFC24EC21E4009F3A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70218E7A967A37D117BDC038 /* Pods-Cavista-CavistaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CavistaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanjay.CavistaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cavista;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67182AC224EC21DC009F3A17 /* Build configuration list for PBXProject "Cavista" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67182AF224EC21E4009F3A17 /* Debug */,
+				67182AF324EC21E4009F3A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67182AF424EC21E4009F3A17 /* Build configuration list for PBXNativeTarget "Cavista" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67182AF524EC21E4009F3A17 /* Debug */,
+				67182AF624EC21E4009F3A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67182AF724EC21E4009F3A17 /* Build configuration list for PBXNativeTarget "CavistaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67182AF824EC21E4009F3A17 /* Debug */,
+				67182AF924EC21E4009F3A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67182AFA24EC21E4009F3A17 /* Build configuration list for PBXNativeTarget "CavistaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67182AFB24EC21E4009F3A17 /* Debug */,
+				67182AFC24EC21E4009F3A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		67182AD324EC21DC009F3A17 /* Cavista.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				67182AD424EC21DC009F3A17 /* Cavista.xcdatamodel */,
+			);
+			currentVersion = 67182AD424EC21DC009F3A17 /* Cavista.xcdatamodel */;
+			path = Cavista.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 67182ABF24EC21DC009F3A17 /* Project object */;
+}
